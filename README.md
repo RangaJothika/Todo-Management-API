@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # TodoCRUDappJava
 A basic CRUD app made using Spring Boot in Java REST API with h2 memory.
 
@@ -26,3 +27,7 @@ It makes use of JPA repository to handle CRUD operations.
 The App architecture can be understood by this flowchart below.
 
 ![alt text](https://i.pinimg.com/originals/69/1c/65/691c65ed531fdbb0037ed5f8192abdd5.jpg)
+=======
+# Todo-Management-API
+Built a Spring MVC/Spring Boot REST API for managing users and todos using Spring Data JPA with H2 DB. Implemented CRUD operations and entity relationships, and tested all endpoints via Postman.
+>>>>>>> c0f69a870fea5cc8a30d894b1794ee1cf1affbff
