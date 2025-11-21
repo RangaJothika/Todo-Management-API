@@ -46,7 +46,16 @@ public class TodoServices {
 	}
 
 	public void updateTodo(Todo todo) {
-		toDoRepository.save(todo);
+
+//		method 1
+		Todo oldTodo = getTodoById(todo.getId());
+		oldTodo.setContent(todo.getContent());
+		oldTodo.setCompleted(todo.getCompleted());
+		toDoRepository.save(oldTodo);
+
+//		method2
+//		todo.setUser(oldtodo.getUser());
+//		toDoRepository.save(todo);
 	}
 
 	@Transactional

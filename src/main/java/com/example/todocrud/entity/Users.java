@@ -29,7 +29,7 @@ public class Users {
      
      **/
 
-    @OneToMany(mappedBy="user",cascade = CascadeType.ALL,fetch = FetchType.EAGER)
+    @OneToMany(mappedBy="user",cascade = CascadeType.ALL,fetch = FetchType.EAGER,orphanRemoval=true)
     @JsonManagedReference
     private List<Todo> todoList = new ArrayList<>();
    
