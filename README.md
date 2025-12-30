@@ -1,4 +1,4 @@
-# Todo-Management-API
+# Personal-Task-Tracker-API
 
 Built a Spring MVC/Spring Boot REST API for managing users and todos using Spring Data JPA with H2 DB. Implemented CRUD operations and entity relationships, and tested all endpoints via Postman.
 The app is made using Spring Boot, H2 Database and Hibernate. It is based on MVC architecture, which consists of Model, View and Controller.
